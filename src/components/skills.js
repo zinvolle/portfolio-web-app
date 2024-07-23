@@ -22,10 +22,10 @@ function Skills() {
                 <p className="montserrat text-xl lg:text-3xl font-bold mt-8 mb-10 text-center">Skills I have developed over my university and personal projects</p>
             </div>
             <div className="flex justify-center">
-                <div className="grid grid-cols-3 gap-8 items-center w-3/4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center w-3/4">
                     {skills.map((skill)=>(
                       <div className='bg-yellow-300 flex flex-row items-center p-2 rounded-full justify-center'>
-                        <p className='montserrat text-xs lg:text-xl ml-2 font-bold text-center'>{skill.name}</p>
+                        <p className='montserrat text-l lg:text-xl ml-2 font-bold text-center'>{skill.name}</p>
                       </div>
                     ))}
                 </div>
