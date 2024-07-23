@@ -1,0 +1,86 @@
+import React from "react";
+import '../index.css';
+import {motion} from 'framer-motion';
+
+const fadeInUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0 }
+  };
+
+
+function Resume() {
+
+    return(
+        <div className="bg-neutral-100 pb-20">
+            <div className="flex flex-col items-center">
+                <p className="bg-yellow-300 p-3 px-6 montserrat font-bold mt-16 text-xl">Resume</p>
+                <p className="montserrat text-3xl lg:text-5xl font-bold mt-8 mb-10">My work and education history</p>
+            </div>
+            <div className="flex flex-col lg:flex-row justify-evenly mt-5">
+                <div>
+                    <p className="text-3xl montserrat font-bold mb-5">Education</p>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                        <p className="text-xl montserrat font-bold">Masters of IT (Computer Science)</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 2022-2024</p>
+                        <p className="text-l montserrat">Graduated with Distinction Average</p>
+                        <p className="text-l montserrat">GPA: 6/7</p>
+                    </div>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                        <p className="text-xl montserrat font-bold">Bachelor's of Science (Medical Science)</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">University of Sydney | 2019-2022</p>
+                        <p className="text-l montserrat">Graduated with Distinction Average</p>
+                        <p className="text-l montserrat">Dean's List of Academic Excellence</p>
+                        <p className="text-l montserrat">Weighted Average Mark: 80</p>
+                    </div>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
+                        <p className="text-xl montserrat font-bold">Higher School Certificate</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Tempe High School | 2018</p>
+                        <p className="text-l montserrat">Honour Roll</p>
+                        <p className="text-l montserrat">97 ATAR</p>
+                    </div>
+                </div>
+                <div>
+                    <p className="text-3xl montserrat font-bold mb-5">Work History</p>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                        <p className="text-xl montserrat font-bold">Software Developer (Work Integrated Experience)</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 6 months</p>
+                        <p className="text-l montserrat">Implemented CI/CD Pipelines</p>
+                        <p className="text-l montserrat">Designed and developed security architecture in <br/> 
+                                                         encrypting data onto the Ethereum blockchain</p>
+                        <p className="text-l montserrat">Developed Express API to perform CRUD operations in MongoDB</p>
+                        <p className="text-l montserrat">Developed user-friendly frontend interface </p>
+                    </div>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                        <p className="text-xl montserrat font-bold">AI Trainer (Freelance)</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Data Annotation | 4 months</p>
+                        <p className="text-l montserrat">Engaging with LLMs to improve quality of outputs</p>
+                        <p className="text-l montserrat">Providing Leetcode style prompts to LLMs and assessing <br/> 
+                        the efficiency generated code. </p>
+                        <p className="text-l montserrat">Using numpy and pandas libraries for data analysis</p>
+                        <p className="text-l montserrat">Writing and responding to SQL queries and JSON data</p>
+                    </div>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                        <p className="text-xl montserrat font-bold">Specimen Reception</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">NSW Health Pathology | 1 year 6 months</p>
+                        <p className="text-l montserrat">Specimen triage, data entry and recordkeeping</p>
+                        <p className="text-l montserrat">Liasing with doctors and scientists regarding <br/> 
+                                                         patient blood complications</p>
+                        <p className="text-l montserrat">Collaborating with health care professionals to address <br/> specimen processing issues </p>
+                    </div>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
+                        <p className="text-xl montserrat font-bold">Mathematics Tutor (Maths Ext 1)</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Tutoring for Excellence | 2 years </p>
+                        <p className="text-l montserrat">Led classes of up to 10 students, teaching Advanced
+                                                         <br/> Mathematics and Extension 1. </p>
+                        <p className="text-l montserrat">Provided private one-on-one tutoring sessions</p>
+                        <p className="text-l montserrat">Engaged in discussions with parents to understand and address <br/>
+                                                         their children's goals and needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+export default Resume;
