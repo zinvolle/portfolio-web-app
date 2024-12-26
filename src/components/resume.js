@@ -44,7 +44,7 @@ function Resume() {
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
                         <p className="text-xl montserrat font-bold">Systems Administrator</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Nexia Sydney | 10/2024 - Current</p>
-                        <p className="text-l montserrat">Administered Active Direectory, MS 365, Azure applications and<br/>
+                        <p className="text-l montserrat">Administered Active Directory, MS 365, Azure applications and<br/>
                                                         enforcing Group Policy Objects to ensure system security</p>
                         <p className="text-l montserrat">Used Windows Server environments, Laptop Imaging and <br/>
                                                         troubleshooting servers on VM-Ware.</p>
