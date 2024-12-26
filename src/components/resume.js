@@ -18,7 +18,7 @@ function Resume() {
             </div>
             <div className="flex flex-col lg:flex-row justify-evenly mt-5">
                 <div>
-                    <p className="text-3xl montserrat font-bold mb-5">Education</p>
+                    <p className="text-3xl montserrat font-bold mb-5 text-center lg:text-left">Education</p>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
                         <p className="text-xl montserrat font-bold">Masters of IT (Computer Science)</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 2022-2024</p>
@@ -40,10 +40,19 @@ function Resume() {
                     </div>
                 </div>
                 <div>
-                    <p className="text-3xl montserrat font-bold mb-5">Work History</p>
+                    <p className="text-3xl montserrat font-bold mb-5 text-center lg:text-left">Work History</p>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
-                        <p className="text-xl montserrat font-bold">Software Developer (Work Integrated Experience)</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 6 months</p>
+                        <p className="text-xl montserrat font-bold">Systems Administrator</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Nexia Sydney | 10/2024 - Current</p>
+                        <p className="text-l montserrat">Administered Active Direectory, MS 365, Azure applications and<br/>
+                                                        enforcing Group Policy Objects to ensure system security</p>
+                        <p className="text-l montserrat">Used Windows Server environments, Laptop Imaging and <br/>
+                                                        troubleshooting servers on VM-Ware.</p>
+                        <p className="text-l montserrat">Automation with Python, Powershell scripts and APIs</p>
+                    </div>
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                        <p className="text-xl montserrat font-bold">Software Developer (Work Integrated Learning)</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 01/2024 - 06/2024</p>
                         <p className="text-l montserrat">Implemented CI/CD Pipelines</p>
                         <p className="text-l montserrat">Designed and developed security architecture in <br/> 
                                                          encrypting data onto the Ethereum blockchain</p>
@@ -52,20 +61,12 @@ function Resume() {
                     </div>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
                         <p className="text-xl montserrat font-bold">AI Trainer (Freelance)</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">Data Annotation | 4 months</p>
-                        <p className="text-l montserrat">Engaging with LLMs to improve quality of outputs</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Data Annotation | 03/2024 - 06/2024</p>
+                        <p className="text-l montserrat">Training LLMs to improve quality of outputs</p>
                         <p className="text-l montserrat">Providing Leetcode style prompts to LLMs and assessing <br/> 
                         the efficiency generated code. </p>
                         <p className="text-l montserrat">Using numpy and pandas libraries for data analysis</p>
                         <p className="text-l montserrat">Writing and responding to SQL queries and JSON data</p>
-                    </div>
-                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
-                        <p className="text-xl montserrat font-bold">Specimen Reception</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">NSW Health Pathology | 1 year 6 months</p>
-                        <p className="text-l montserrat">Specimen triage, data entry and recordkeeping</p>
-                        <p className="text-l montserrat">Liasing with doctors and scientists regarding <br/> 
-                                                         patient blood complications</p>
-                        <p className="text-l montserrat">Collaborating with health care professionals to address <br/> specimen processing issues </p>
                     </div>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
                         <p className="text-xl montserrat font-bold">Mathematics Tutor (Maths Ext 1)</p>

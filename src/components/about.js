@@ -42,10 +42,10 @@ function About() {
             <div className="flex flex-col lg:flex-row justify-evenly mt-6 mb-6">
                 <div>
                     <p id= 'about-me' className="montserrat text-3xl text-center lg:text-left">Hi, I'm Amos Ang</p>
-                    <p className="montserrat text-xl mt-4 text-center lg:text-left md:mb-4 sm:mb-4">I'm a recent graduate from Queensland University of Technology <br/> 
-                    with a Masters of Computer Science with a genuine love for software development  <br />
-                    and engineering. I get a lot of satisfaction from building websites and finding <br /> 
-                    clever solutions through programming to make things work better and more efficiently.</p>
+                    <p className="montserrat text-xl mt-4 text-center lg:text-left md:mb-4 sm:mb-4">I am a graduate of Queensland University of Technology (QUT) <br/>
+                        with a Master's degree in Computer Science, passionate in technology. <br/>
+                        My expertise lies in crafting innovative solutions through programming <br/>
+                        to drive efficiency and solve complex challenges.</p>
                 </div>
           
 
