@@ -11,11 +11,7 @@ function Contact() {
             <div>
                 <div className='mt-10 flex flex-row items-center space-x-5'>
                     <img src={email} className='h-5 w-5 filter' alt='email' />
-                    <p className='text-lg montserrat'>aeroaviation12@gmail.com</p>
-                </div>
-                <div className='mt-2 flex flex-row items-center space-x-5'>
-                    <img src={phone} className='h-5 w-5 filter' alt='phone' />
-                    <p className='text-lg montserrat'>(+61) 422 125 295</p>
+                    <p className='text-lg montserrat'>amosang245@@gmail.com</p>
                 </div>
                 <div className='mt-2 flex flex-row items-center space-x-5'>
                     <img src={location} className='h-5 w-5 filter' alt='location' />

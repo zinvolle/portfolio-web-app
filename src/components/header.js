@@ -29,10 +29,7 @@ function Header() {
             <img src={amos} className="h-7 lg:h-11"></img>
           </div>
           <div className="flex font-bold">
-            <img src={phone} className="h-7 w-7 lg:h-9 lg:w-9 mr-1"></img>
-            <div>
-              <p className="text-xl lg:text-2xl">(61) 422 125 295</p>
-            </div>
+         
             <div>
               <button onClick={toggleMenu}>
                 <img src={menu} className="h-7 w-7 lg:h-9 lg:h-9 invert ml-3"></img>
