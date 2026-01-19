@@ -51,7 +51,7 @@ function Resume() {
                         <p className="text-l montserrat">Automation with Python, Powershell scripts and APIs</p>
                     </div>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
-                        <p className="text-xl montserrat font-bold">Software Developer (Work Integrated Learning)</p>
+                        <p className="text-xl montserrat font-bold">Support Developer (Work Integrated Learning)</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 01/2024 - 06/2024</p>
                         <p className="text-l montserrat">Implemented CI/CD Pipelines</p>
                         <p className="text-l montserrat">Designed and developed security architecture in <br/> 
