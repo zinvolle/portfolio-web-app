@@ -7,7 +7,6 @@ function Contact() {
     return (
         <div className="flex flex-col bg-yellow-300 justify-center text-center py-10 items-center">
             <p className="montserrat text-3xl font-bold ">Contact Me!</p>
-            <p className="montserrat text-xl font-normal mt-10">I am interested to know how my skills and experience align with the needs of your company</p>
             <div>
                 <div className='mt-10 flex flex-row items-center space-x-5'>
                     <img src={email} className='h-5 w-5 filter' alt='email' />

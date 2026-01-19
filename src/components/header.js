@@ -24,12 +24,11 @@ function Header() {
   return (
     <header className="sticky top-0 bg-yellow-300 w-full z-30">
       <nav className="bg-yellow-300">
-        <div className="container mx-auto flex justify-between items-center py-5 px-6">
+        <div className="flex justify-between items-center py-4 px-4 sm:px-6 lg:px-10">
           <div className="font-bold ">
             <img src={amos} className="h-7 lg:h-11"></img>
           </div>
           <div className="flex font-bold">
-         
             <div>
               <button onClick={toggleMenu}>
                 <img src={menu} className="h-7 w-7 lg:h-9 lg:h-9 invert ml-3"></img>

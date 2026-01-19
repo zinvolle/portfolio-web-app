@@ -20,13 +20,13 @@ function Resume() {
                 <div>
                     <p className="text-3xl montserrat font-bold mb-5 text-center lg:text-left">Education</p>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
-                        <p className="text-xl montserrat font-bold">Masters of IT (Computer Science)</p>
+                        <p className="text-xl montserrat font-bold">Master's of IT (Computer Science)</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 2022-2024</p>
                         <p className="text-l montserrat">Graduated with Distinction Average</p>
                         <p className="text-l montserrat">GPA: 6/7</p>
                     </div>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
-                        <p className="text-xl montserrat font-bold">Bachelor's of Science (Medical Science)</p>
+                        <p className="text-xl montserrat font-bold">Bachelor's of Science</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">University of Sydney | 2019-2022</p>
                         <p className="text-l montserrat">Graduated with Distinction Average</p>
                         <p className="text-l montserrat">Dean's List of Academic Excellence</p>
@@ -36,14 +36,13 @@ function Resume() {
                         <p className="text-xl montserrat font-bold">Higher School Certificate</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Tempe High School | 2018</p>
                         <p className="text-l montserrat">Honour Roll</p>
-                        <p className="text-l montserrat">97 ATAR</p>
                     </div>
                 </div>
                 <div>
                     <p className="text-3xl montserrat font-bold mb-5 text-center lg:text-left">Work History</p>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
                         <p className="text-xl montserrat font-bold">Systems Administrator</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">Nexia Sydney | 10/2024 - Current</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Nexia Sydney | 10/2024 - 12/2025</p>
                         <p className="text-l montserrat">Administered Active Directory, MS 365, Azure applications and<br/>
                                                         enforcing Group Policy Objects to ensure system security</p>
                         <p className="text-l montserrat">Used Windows Server environments, Laptop Imaging and <br/>
@@ -51,7 +50,7 @@ function Resume() {
                         <p className="text-l montserrat">Automation with Python, Powershell scripts and APIs</p>
                     </div>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
-                        <p className="text-xl montserrat font-bold">Support Developer (Work Integrated Learning)</p>
+                        <p className="text-xl montserrat font-bold">Support Developer</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Queensland University of Technology | 01/2024 - 06/2024</p>
                         <p className="text-l montserrat">Implemented CI/CD Pipelines</p>
                         <p className="text-l montserrat">Designed and developed security architecture in <br/> 
@@ -61,7 +60,7 @@ function Resume() {
                     </div>
                     <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
                         <p className="text-xl montserrat font-bold">AI Trainer (Freelance)</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">Data Annotation | 03/2024 - 06/2024</p>
+                        <p className="text-l montserrat font-medium mt-2 mb-2">Data Annotation | 03/2024 - 06/2025</p>
                         <p className="text-l montserrat">Training LLMs to improve quality of outputs</p>
                         <p className="text-l montserrat">Providing Leetcode style prompts to LLMs and assessing <br/> 
                         the efficiency generated code. </p>

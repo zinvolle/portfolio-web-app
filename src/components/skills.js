@@ -5,14 +5,14 @@ function Skills() {
 
     const skills = [
         { name: 'React' },
-        { name: '.Net Core WebAPI, MVC' },
         { name: 'NodeJS' },
-        { name: 'SQL Server' },
+        { name: 'SQL Database' },
+        { name: 'ExpressJS' },
         { name: 'Active Directory' },
         { name: 'Palo Alto Firewall' },
         { name: 'Office 365' },
         { name: 'Network Security' },
-        { name: 'Azure' }
+        { name: 'Azure/AWS' }
       ];
 
     return (
