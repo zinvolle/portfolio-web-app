@@ -42,8 +42,7 @@ function About() {
                 <div>
                     <p id= 'about-me' className="montserrat text-3xl text-center lg:text-left">Hi, I'm Amos</p>
                     <p className="montserrat text-xl mt-4 text-center lg:text-left md:mb-4 sm:mb-4 max-w-2xl mx-auto lg:mx-0">
-                    I am a graduate of Queensland University of Technology (QUT) with a Master's
-                    degree in Computer Science, passionate in technology. My expertise lies in
+                    My passion lies in
                     crafting innovative solutions through software integrations to drive
                     efficiency and solve complex challenges.
                     </p>

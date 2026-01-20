@@ -25,17 +25,12 @@ function Resume() {
                         <p className="text-l montserrat">Graduated with Distinction Average</p>
                         <p className="text-l montserrat">GPA: 6/7</p>
                     </div>
-                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
                         <p className="text-xl montserrat font-bold">Bachelor's of Science</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">University of Sydney | 2019-2022</p>
                         <p className="text-l montserrat">Graduated with Distinction Average</p>
                         <p className="text-l montserrat">Dean's List of Academic Excellence</p>
                         <p className="text-l montserrat">Weighted Average Mark: 80</p>
-                    </div>
-                    <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
-                        <p className="text-xl montserrat font-bold">Higher School Certificate</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">Tempe High School | 2018</p>
-                        <p className="text-l montserrat">Honour Roll</p>
                     </div>
                 </div>
                 <div>

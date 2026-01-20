@@ -33,7 +33,7 @@ function Home() {
                     Based in Sydney, Australia
                 </p>
                 <div className="flex flex-row space-x-4 mt-10">
-                    <button onClick={()=> handleScroll(3350)} className="p-4 px-8 bg-gray-800 text-white font-bold montserrat transition duration-1000 ease-in-out hover:bg-gray-600">View my works</button>
+                    <button onClick={()=> document.getElementById("myprojects")?.scrollIntoView({behavior: "smooth"})} className="p-4 px-8 bg-gray-800 text-white font-bold montserrat transition duration-1000 ease-in-out hover:bg-gray-600">View my works</button>
                     <button onClick={()=> handleScroll(7000)} className="p-4 px-8 bg-gray-800 text-white font-bold montserrat transition duration-1000 ease-in-out hover:bg-gray-600">Contact Me</button>
                 </div>
             </div>

@@ -35,7 +35,7 @@ function Project() {
     }
 
     return (
-        <div className="bg-neutral-100 pb-20">
+        <div id="myprojects" className="bg-neutral-100 pb-20">
             <div className="flex flex-col items-center">
                 <p className="bg-yellow-300 p-3 px-6 montserrat font-bold mt-16 text-xl">Projects</p>
                 <p className="montserrat text-xl lg:text-4xl font-bold mt-8 mb-10">A few of my university and personal projects</p>
