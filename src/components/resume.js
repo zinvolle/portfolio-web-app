@@ -53,7 +53,7 @@ function Resume() {
                         <p className="text-l montserrat">Developed Express API to perform CRUD operations in MongoDB</p>
                         <p className="text-l montserrat">Developed user-friendly frontend interface </p>
                     </div>
-                    <div className="border-4 border-neutral-100 border-l-yellow-300 border-b-neutral-200 p-8">
+                    <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
                         <p className="text-xl montserrat font-bold">AI Trainer (Freelance)</p>
                         <p className="text-l montserrat font-medium mt-2 mb-2">Data Annotation | 03/2024 - 06/2025</p>
                         <p className="text-l montserrat">Training LLMs to improve quality of outputs</p>
@@ -61,15 +61,6 @@ function Resume() {
                         the efficiency generated code. </p>
                         <p className="text-l montserrat">Using numpy and pandas libraries for data analysis</p>
                         <p className="text-l montserrat">Writing and responding to SQL queries and JSON data</p>
-                    </div>
-                    <div className="border-4 border-neutral-100 border-l-yellow-300 p-8">
-                        <p className="text-xl montserrat font-bold">Mathematics Tutor (Maths Ext 1)</p>
-                        <p className="text-l montserrat font-medium mt-2 mb-2">Tutoring for Excellence | 2 years </p>
-                        <p className="text-l montserrat">Led classes of up to 10 students, teaching Advanced
-                                                         <br/> Mathematics and Extension 1. </p>
-                        <p className="text-l montserrat">Provided private one-on-one tutoring sessions</p>
-                        <p className="text-l montserrat">Engaged in discussions with parents to understand and address <br/>
-                                                         their children's goals and needs.</p>
                     </div>
                 </div>
             </div>
