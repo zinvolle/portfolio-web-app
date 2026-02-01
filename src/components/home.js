@@ -18,7 +18,7 @@ function Home() {
             <img src={mypicture} className="rounded-full h-64 w-64 lg:h-96 lg:w-96 object-cover border-8 border-white mb-4 lg:mb-0 lg:mr-4"></img>
             <div className="flex flex-col items-center lg:items-start">
                 <p className="text-3xl mb-4 montserrat text-center">
-                    Hi, I'm a Application Support Engineer
+                    Hi, I'm an Application Support Engineer
                 </p>
                 <p className="text-6xl font-bold text-center lg:text-left mb-4 montserrat">
                     <Typewriter 
