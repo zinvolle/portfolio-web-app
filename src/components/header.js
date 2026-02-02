@@ -46,10 +46,10 @@ function Header() {
         <div className="popup-content-inner">
           <ul className="space-y-8 text-white text-3xl montserrat font-bold">
             <li><button onClick={()=>{handleScroll(0); toggleMenu()} } className="hover:text-yellow-300 transition ease-in-out duration-500">Home</button></li>
-            <li><button onClick={()=>{handleScroll(800); toggleMenu()}} className="hover:text-yellow-300 transition ease-in-out duration-500">About</button></li>
-            <li><button onClick={()=>{handleScroll(1600); toggleMenu()}} className="hover:text-yellow-300 transition ease-in-out duration-500">Resume</button></li>
-            <li><button onClick={()=>{handleScroll(2800); toggleMenu()}} className="hover:text-yellow-300 transition ease-in-out duration-500">Skills</button></li>
-            <li><button onClick={()=>{handleScroll(3350); toggleMenu()}} className="hover:text-yellow-300 transition ease-in-out duration-500">Projects</button></li>
+            <li><button onClick={()=>document.getElementById("aboutmesection")?.scrollIntoView({behavior: "smooth"})} className="hover:text-yellow-300 transition ease-in-out duration-500">About</button></li>
+            <li><button onClick={()=>document.getElementById("resumesection")?.scrollIntoView({behavior: "smooth"})} className="hover:text-yellow-300 transition ease-in-out duration-500">Resume</button></li>
+            <li><button onClick={()=>document.getElementById("skillsection")?.scrollIntoView({behavior: "smooth"})} className="hover:text-yellow-300 transition ease-in-out duration-500">Skills</button></li>
+            <li><button onClick={()=>document.getElementById("myprojects")?.scrollIntoView({behavior: "smooth"})} className="hover:text-yellow-300 transition ease-in-out duration-500">Projects</button></li>
             <li><button onClick={()=>{handleScroll(8000); toggleMenu()}} className="hover:text-yellow-300 transition ease-in-out duration-500">Contact</button></li>
             <div className="flex flex-row items-center justify-center">
               <a href="https://github.com/zinvolle" target="_blank" rel="noopener noreferrer">

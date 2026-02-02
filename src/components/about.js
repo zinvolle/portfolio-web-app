@@ -28,7 +28,7 @@ function About() {
 }, [])
 
     return (
-        <div className="pb-20">
+        <div id="aboutmesection" className="pb-20">
             <div className="flex flex-col items-center">
                 <p className="bg-yellow-300 p-3 px-6 montserrat font-bold mt-20 text-xl">About Me</p>
             </div>

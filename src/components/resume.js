@@ -11,10 +11,10 @@ const fadeInUp = {
 function Resume() {
 
     return(
-        <div className="bg-neutral-100 pb-20">
+        <div id="resumesection" className="bg-neutral-100 pb-20">
             <div className="flex flex-col items-center">
                 <p className="bg-yellow-300 p-3 px-6 montserrat font-bold mt-16 text-xl">Resume</p>
-                <p className="montserrat text-3xl lg:text-5xl font-bold mt-8 mb-10">My work and education history</p>
+                <p className="text-center montserrat text-3xl lg:text-5xl font-bold mt-8 mb-10">My work and education history</p>
             </div>
             <div className="flex flex-col lg:flex-row justify-evenly mt-5">
                 <div>

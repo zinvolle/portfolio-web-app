@@ -16,7 +16,7 @@ function Skills() {
       ];
 
     return (
-        <div className="mb-20">
+        <div id="skillsection" className="mb-20">
             <div className="flex flex-col items-center">
                 <p className="bg-yellow-300 p-3 px-6 montserrat font-bold mt-16 text-xl">Skills</p>
                 <p className="montserrat text-xl lg:text-3xl font-bold mt-8 mb-10 text-center">Skills I have developed over my university and work</p>
